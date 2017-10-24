@@ -4,10 +4,10 @@
 2. Autor:
 - Lilliam Haro (8BM)
 3. Descripción del Proyecto:
-	-Este proyecto contiene la maquetación de la página Pinterest
+	- Este proyecto contiene la maquetación de la página Pinterest
 4. Herramientas utilizadas:
-	-HTML5
-	-CSS3
+	- HTML5
+	- CSS3
 5. Resultados Finales:
 - ![Recursos](assets/images/pinterest-principal.png)
 - ![Recursos](assets/images/pinterest-medio.png)
