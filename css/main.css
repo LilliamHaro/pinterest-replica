@@ -67,7 +67,7 @@ hr{
 }
 .second-container {
   overflow: auto;
-  padding-left: 10%;
+  padding-left: 15%;
 }
 .box{
   padding:10px 25px;
@@ -79,31 +79,31 @@ hr{
   font-family: monospace;
 }
 .first-button {
-  background-color: #61380B;
+  background-color:rgb(116,96,81);
 }
 .second-button {
-  background-color: #B45F04;
+  background-color:rgb(171, 139, 111);
 }
 .third-button {
-  background-color:#9E790B
+  background-color: rgb(135, 114, 92);
 }
 .fourth-button {
-  background-color: #C1670D;
+  background-color: rgb(138, 106, 78);
 }
 .fiveth-button {
-  background-color: #898518;
+  background-color: rgb(154, 147, 77);
 }
 .sixth-button {
-  background-color: #D2B240;
+  background-color: rgb(130, 115, 92);
 }
 .seventh-button {
-  background-color: #B3A7BB;
+  background-color: rgb(141, 130, 128);
 }
 .eigth-button {
-  background-color: #C48855;
+  background-color: rgb(157, 121, 93);
 }
 .nine-button {
-  background-color: #91769E;
+  background-color: rgb(176, 129, 118);
 }
 #principal {
   padding: 0 5%;
@@ -123,7 +123,7 @@ hr{
 }
 .image-post img {
   max-width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 .views {
   overflow: auto;
