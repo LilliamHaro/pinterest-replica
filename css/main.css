@@ -128,14 +128,14 @@ hr{
 .views {
   overflow: auto;
 }
-.views span{
+.icon-checkmark, .icon-pushpin {
+  color: #C1C0BC;
   float: right;
   font-size: 10px;
-  margin: 8px;
+  margin: 4px 8px 8px 4px;
 }
-.icon-checkmark, .icon-pushpin {
-  margin-right: 2px;
-  color: #C1C0BC;
+.icon-checkmark {
+  margin-right: 15px;
 }
 .circle {
   width: 30px;
