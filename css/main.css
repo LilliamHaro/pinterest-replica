@@ -1,0 +1,159 @@
+header {
+  position: fixed; /*fijamos el contenedor principal en la parte superior*/
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding-bottom: 10px;
+}
+#first-container {
+  overflow: auto; /*aplicamos overflow p<ra que los elementos flotante se queden dentro del contenedor padre*/
+  padding-left: 5%;
+
+}
+.icon-box{
+  margin:20px 15px 20px 15px;
+  float: left;/*hacemos que los contenedores de los elementos floten a la izquierda*/
+}
+.first-icon{
+  margin:10px 25px 10px 0px; /*modificamos los margenes del primer icon porque este tiene un tamaño diferente a los demás*/
+}
+.input-box {
+  background-color: #E6E6E6;
+  width: 75%;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px; /*para redondear los bordes*/
+  border: 0;
+  font-size: 16px;
+  padding: 12px 16px 9px;
+  font-family: 'PT Sans', sans-serif;
+}
+.input-box input {
+  background-color: #E6E6E6;
+  border: 0;
+  margin-left: 7px;
+  width: 85%;
+}
+/*aplicamos tamaño y color a los íconos*/
+.icon-pinterest {
+  color: #B40404;
+  font-size: 42px;
+}
+.icon-search {
+  font-size: 17px;
+  margin-left: 10px;
+}
+.icon-cross, .icon-arrow-down{
+  font-size: 13px;
+  margin-left: 3px;
+
+}
+.icon-user {
+  font-size: 20px;
+  color: #BDBDBD;
+}
+.icon-menu{
+  font-size: 20px;
+  color: #BDBDBD;
+}
+.icon-bubble{
+  font-size: 20px;
+  color: #BDBDBD;
+}
+hr{
+  margin:0;/*le quitamos en margin que viene por default*/
+}
+.second-container {
+  overflow: auto;
+  padding-left: 10%;
+}
+.box{
+  padding:10px 25px;
+  float: left;
+  margin-top: 8px;
+  margin-right: 12px;
+  border-radius: 8px;
+  color:white;
+  font-family: monospace;
+}
+.first-button {
+  background-color: #61380B;
+}
+.second-button {
+  background-color: #B45F04;
+}
+.third-button {
+  background-color:#9E790B
+}
+.fourth-button {
+  background-color: #C1670D;
+}
+.fiveth-button {
+  background-color: #898518;
+}
+.sixth-button {
+  background-color: #D2B240;
+}
+.seventh-button {
+  background-color: #B3A7BB;
+}
+.eigth-button {
+  background-color: #C48855;
+}
+.nine-button {
+  background-color: #91769E;
+}
+#principal {
+  padding: 0 5%;
+  overflow: auto;
+  margin-top: 154px;
+  box-sizing: border-box;
+  /*column-width:25%;*/
+}
+
+.column {
+  width: 24%;
+  float: left;
+  margin-left: 1%;
+}
+.image-post {
+  margin: 0px 10px 10px 0;
+}
+.image-post img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.views {
+  overflow: auto;
+}
+.views span{
+  float: right;
+  font-size: 10px;
+  margin: 8px;
+}
+.icon-checkmark, .icon-pushpin {
+  margin-right: 2px;
+  color: #C1C0BC;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: pink;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 5px;
+
+}
+article p,span {
+    font-family: 'PT Sans', sans-serif;
+}
+.post {
+  margin-bottom: 15px;
+}
